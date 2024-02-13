@@ -99,6 +99,13 @@ exit()
 The readout from this particular execution of SLH-DSA-SHAKE-128f is that KeyGen was 202180 cycles, signing was 4923932 cycles, and verification was 438901 cycles. Furthermore, the self-tests were a PASS; the output matched the Known Answer Tests.
 
 
+##	Some other targets
+
+*	`make bits`:  Create an Artix-7 bitstream for CW305 (using Vivado.)
+*	`make prog`:  Program and execute the bitstream on CW305 (using ChipWhisperer.)
+*	`make synth`:  Run a Nangate45 synthesis and timing (using Yosys/OpenSTA. See [flow/yosys-sys](flow/yosys-syn).)
+*	`make prof`:	 Profiling (see the per-code line instruction counts in annotated source files created in directory `_prof`.
+
 ##	Side-Channel Collection
 
 I collect traces from the 20dB low amplified SMA connector (X4). Bit 0 of the GPIO register connects to the SMA connector T13 "CLKOUT" on the board, and this is used as a trigger by `test_leak.c`. The trace collection and analysis stuff is not included, and anyway works only with my oscilloscope.
