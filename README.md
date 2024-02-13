@@ -4,7 +4,7 @@ An accelerator / codesign for SLH-DSA ("Stateless Hash-Based Digital Signature S
 
 To cite this work, please use:
 ```
-@misc{sa24sloth,
+@misc{sloth24,
     author          = {anon},
     title           = {{SLotH}: Accelerating SLH-DSA by Two Orders of Magnitude},
     howpublished    = {{IACR} ePrint 2024/0000},
