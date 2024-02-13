@@ -1,4 +1,4 @@
-v#       SLotH
+#       SLotH
 
 An accelerator / codesign for SLH-DSA ("Stateless Hash-Based Digital Signature Standard") as described in [FIPS 205 Initial Public Draft](https://doi.org/10.6028/NIST.FIPS.205.ipd) from August 2023. 
 
