@@ -6,7 +6,7 @@ To cite this work, please use:
 ```
 @misc{sloth24,
     author          = {anon},
-    title           = {{SLotH}: Accelerating SLH-DSA by Two Orders of Magnitude},
+    title           = {Accelerating {SLH}-{DSA} by Two Orders of Magnitude with a Single Hash Unit},
     howpublished    = {{IACR} ePrint 2024/0000},
     url             = {https://eprint.iacr.org/2024/0000},
     year            = {2024}
@@ -104,7 +104,7 @@ The readout from this particular execution of SLH-DSA-SHAKE-128f is that KeyGen 
 *	`make bits`:  Create an Artix-7 bitstream for CW305 (using Vivado.)
 *	`make prog`:  Program and execute the bitstream on CW305 (using ChipWhisperer.)
 *	`make synth`:  Run a Nangate45 synthesis and timing (using Yosys/OpenSTA. See [flow/yosys-sys](flow/yosys-syn).)
-*	`make prof`:	 Profiling (see the per-code line instruction counts in annotated source files created in directory `_prof`.
+*	`make prof`:	 Profiling (see the per-code line instruction counts in annotated source files created in directory `_prof`).
 
 ##	Side-Channel Collection
 
